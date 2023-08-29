@@ -22,6 +22,9 @@ Once the app is running, click "Load Video" in the upper left corner. Use the fi
 The video will load and the first frame of the video will be drawn to the rightmost axis.
 You can now use the various GUI elements to modify the video:
 
+
+--- Cropping and rotation ---
+
 ROI:
 Modify video size by cropping or split a video into two halves. 
 The options are:
@@ -30,7 +33,6 @@ The options are:
 - Vertical Split: This draws a vertical line ROI onto the video frame. The video will be split along this line, resulting in two output videos. These videos will have "left" and "right" appended to their names. Drag the ROI left and right to specify where to split.
 - Horizontal Split: This draws a horizontal line ROI onto the video frame. The video will be split along this line, resulting in two output videos. These videos will have "top" and  "bottom" appended to their name. Drag the ROI up and down to specify where to split.
 
---- Cropping and rotation ---
 Rotation:
 Rotate the video in increments of 90 degrees clockwise. Note that selecting this will delete any cropping ROIs.
 
