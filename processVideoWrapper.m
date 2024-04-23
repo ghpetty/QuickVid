@@ -19,7 +19,7 @@ end
 
 vidName = appData.VidName;
 vidPath = appData.VidPath;
-vidFilePath = fullfile(vidName,vidPath);
+vidFilePath = fullfile(vidPath,vidName);
 
 isNegated = logical(appData.Negate);
 quality = appData.Quality;
