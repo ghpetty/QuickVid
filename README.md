@@ -4,18 +4,17 @@ An interactive MATLAB app for preprocessing videos using FFMPEG
 QuickVid is a wrapper application for FFMPEG, a powerful open-source video and audio processing tool. 
 FFMPEG is incredibly useful, but has a notoriously steep learning curve. This app allows the user to set various parameters interactively and then generates an FFMPEG command which is called from within MATLAB. It is designed for simple preprocessing of grayscale videos.
 
-Requirements:
-MATLAB 2021a or newer
-FFMPEG 2021-04-09 or newer (not tested on all newer versions of FFMPEG)
-QuickVid has so far only been tested on Windows 10.
-Currently supports processing of mp4, avi, and mkv files. All outputs are formatted to mp4. 
+Requirements: 
+- MATLAB 2021a or newer
+- FFMPEG 2021-04-09 or newer (not tested on all newer versions of FFMPEG)
+- QuickVid has so far only been tested on Windows 10.
+- Currently supports processing of mp4, avi, and mkv files. All outputs are formatted to mp4. 
 
 Installation: 
-After setting up FFMPEG, download all files in this repository and add them to your MATLAB path.
+- After setting up FFMPEG, download all files in this repository and add them to your MATLAB path.
 
-Getting Started:
-Start QuickVid.app by typing QuickVid in the command line 
-OR
+Getting Started: 
+Start QuickVid.app by typing QuickVid in the command line or 
 Right-click QuickVid.mlapp in the file explorer and select "Run"
 
 Once the app is running, click "Load Video" in the upper left corner. Use the file navigator to select a video file. 
@@ -45,7 +44,7 @@ Trim Frames:
 - Exclude the specified number of frames from the beginning of the video
 
 Playback:
-- Modify the playback speed. 1=same frame rate as input video. 2= twice as fast as the input video. 0.5= half the speed of the input video, and so on.
+- Modify the playback speed. 1= same frame rate as input video. 2= twice as fast as the input video. 0.5= half the speed of the input video, and so on.
 
 Gaussian Blur:
 
@@ -89,7 +88,7 @@ Output Path:
 
 Fix File Names:
 - Renames files by replacing hyphens and whitespace with underscores.
-- This can make file names more compatible with various analysis algorithms/programs. 
+- This can make file names more compatible with various analysis programs. 
 
 
 
